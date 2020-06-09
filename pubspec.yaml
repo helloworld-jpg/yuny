@@ -1,0 +1,203 @@
+name: wuhan_flutter
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  flutter_swiper : ^1.1.6
+  flutter_screenutil: ^0.5.2
+  flutter_webview_plugin: ^0.3.5
+  flutter_staggered_grid_view: "^0.3.0"
+  fluro: "^1.4.0"
+  flutter_statusbarcolor: ^0.2.0
+  dio: 2.1.4
+  cached_network_image: ^2.0.0-rc
+  flutter_easyrefresh: ^1.2.7
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  
+  
+
+  
+    
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - img/foot_b1.png
+   - img/foot_b1_b.png
+   - img/foot_b3.png
+   - img/foot_b3_b.png
+   - img/foot_b4.png
+   - img/foot_b4_b.png
+   - img/foot_b5.png
+   - img/foot_b5_b.png
+   - img/foot_b11.png
+   - img/foot_b11_b.png
+   - img/foot_b12.png
+   - img/foot_b12_b.png
+   - img/foot_b21.png
+   - img/foot_b21_b.png
+   - img/foot_b22.png
+   - img/foot_b22_b.png
+   - img/foot_b31.png
+   - img/foot_b31_b.png
+   - img/consultation_head.png
+   - img/ic_user_navbar_setting1.png
+   - img/mps_sport_input.png
+   - img/ic_user_navbar_code1.png
+   - img/arrow_gray_right.png
+   - img/arrow_right.png
+   - img/myfragment_elect_cert.png
+   - img/myfragment_family.png
+   - img/myfragment_hos_appoint.png
+   - img/myfragment_shoptrade_record.png
+   - img/myfragment_signhistory.png
+   - img/myfragment_service_ticket.png
+   - img/myfragment_service_history.png
+   - img/myfragment_healthy_indicators.png
+   - img/myfragment_health_case.png
+   - img/myfragment_con_record.png
+   - img/myfragment_appoint_familydoc.png
+   - img/icon_arrow_right.png
+   - img/healthfrg_rec_enter.png
+   - img/healthfrg_health_all.png
+   - img/healthfrg_health_info.png
+   - img/healthfrg_health_test.png
+   - img/healthfrg_heart_break.png
+   - img/healthfrg_ai_eqi.png
+   - img/healthfrg_health_all_bg.png
+   - img/healthfrg_health_all.png
+   - img/healthfrg_disease_prevent.png
+   - img/healthfrg_disease_control.png
+   - img/healthfrg_medical_map.png
+   - img/healthfrg_baby_map.png
+   - img/healthfrg_drag_map.png
+   - img/healthfrg_phone_service.png
+   - img/healthfrg_med_remind.png
+   - img/healthfrg_bmi.png
+   - img/healthfrg_lin_physique.png
+   - img/healthfrg_lin_oldman.png
+   - img/healthfrg_sexy.png
+   - img/healthfrg_pres_extent.png
+   - img/scan.png
+   - img/home_massage.png
+   - img/banner13.png
+   - img/banner23.png
+   - img/banner33.png
+   - img/ic_navbar_maeeage_black.png
+   - img/ic_navbar_message.png
+   - img/ic_navbar_scan.png
+   - img/ic_navbar_scan_black.png
+   - img/homefrag_mydoctor.png
+   - img/homefrag_health_page.png
+   - img/homefrag_wollet.png
+   - img/home_saras_check_new.png
+   - img/home_appointment2.png
+   - img/home_saras_check.png
+   - img/home_in_hos2.png
+   - img/ic_home_diagnose2.png
+   - img/home_blood_center.png
+   - img/home_find2.png
+   - img/home_lineup1.png
+   - img/home_payment3.png
+   - img/homefrag_house_service.png
+   - img/homefrag_baby_service.png
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Farrington
+      fonts:
+        - asset: assets/fonts/Farrington-7B.ttf
+    - family: IconFont
+      fonts:
+        - asset: assets/fonts/IconFont.ttf
+    - family: AntdIcons
+      fonts:
+        - asset: assets/fonts/AntdIcons.ttf    
+        
+  
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
